@@ -294,4 +294,4 @@ io.on('connection', (socket) => {
         return null;
     }
 });
-server.listen(PORT, () => console.log(`服務器端口： ${PORT}`) );
+server.listen(PORT, () => console.log(`已開啟服務器端口： ${PORT}`) );
